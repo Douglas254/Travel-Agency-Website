@@ -8,7 +8,7 @@ const Footer = () => {
                 <li><button>Privacy policy</button></li>
             </ul>
             <div>
-                <h4>Designed and Developed by<span><a href="https://github.com/Douglas254" style={{color: '#fff',textDecoration:'none'}}> Douglas254</a></span></h4>
+                <h4 style={{color: '#fff',textDecoration:'none'}}>Designed and Developed by ~ <span><a href="https://github.com/Douglas254" style={{color: '#fff',textDecoration:'none', fontFamily: 'adorn serif'}}> Douglas254</a></span></h4>
             </div>
             <ul>
                 <li><button>Book your Flight</button></li>

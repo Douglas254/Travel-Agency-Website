@@ -7,6 +7,7 @@ import Footer from './components/Footer'
 import Login from './components/Login'
 import SignUp from './components/SignUp'
 import Error from './components/Error'
+import CounterApp from './components/CounterApp'
 
 function App() {
   return (
@@ -24,6 +25,10 @@ function App() {
 
         <Route path="/signup">
           <SignUp/>
+        </Route>
+
+        <Route path="/counterApp">
+          <CounterApp/>
         </Route>
 
         <Route path="/*">
